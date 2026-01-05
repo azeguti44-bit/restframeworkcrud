@@ -1,22 +1,21 @@
-Projeto API de Usuários (Django REST Framework)
-Este é um projeto de estudo de um CRUD completo.
+# 🚀 Gerenciamento de Usuários - Django REST Framework
 
-🚀 Como rodar o projeto
-Clone este repositório.
+Este projeto é uma **API RESTful** desenvolvida para fins de estudo, focada na implementação de um **CRUD completo** (Create, Read, Update, Delete) utilizando Django e Django REST Framework.
 
-Crie um ambiente virtual: python -m venv venv.
+## 📋 Sobre o Projeto
+A API permite o gerenciamento de perfis de usuários, utilizando o campo `nickname` como chave primária para identificação. O projeto explora conceitos como:
+- Modelagem de dados com Django ORM.
+- Serialização de dados com `ModelSerializer`.
+- Views baseadas em funções com `@api_view`.
+- Tratamento de diferentes métodos HTTP (GET, POST, PUT, DELETE).
 
-Instale as dependências: pip install -r requirements.txt.
+---
 
-Rode as migrações: python manage.py migrate.
+## 💻 Como Rodar o Projeto Localmente
 
-Inicie o servidor: python manage.py runserver.
+Siga os passos abaixo para configurar o ambiente em sua máquina:
 
-🛠 Como testar o DELETE/PUT (Métodos que você criou)
-Como o navegador não envia corpos de requisição por padrão, utilize o Postman ou Thunder Client:
-
-URL: http://127.0.0.1:8000/api/data/
-
-Método: DELETE (ou PUT)
-
-Corpo (JSON): > ```json { "user_nickname": "pauloaz" }
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+   cd NOME_DO_REPOSITORIO
